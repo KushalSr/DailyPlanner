@@ -2,6 +2,9 @@
   "name": "nodeapi",
   "version": "1.0.0",
   "main": "server.js",
+  "engine": {
+    "node": ">=14.20.1"
+  },
   "type": "module",
   "scripts": {
     "start": "node server.js",
